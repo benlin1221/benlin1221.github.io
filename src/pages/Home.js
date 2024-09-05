@@ -9,7 +9,7 @@ function Home() {
         <img src={dp} alt="Me"/>
       </div>
       <h1>Hi, my name is Ben Lin.</h1>
-      <p>3B Honours Computer Science (Co-op) @ University of Waterloo</p>
+      <p>Computer Science New Grad from the University of Waterloo</p>
     </div>
   );
 }
