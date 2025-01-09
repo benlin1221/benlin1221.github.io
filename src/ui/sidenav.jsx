@@ -1,9 +1,9 @@
-import './App.css';
+import './sidenav.css'
 import SideNavLink from './sidenavlink';
 
 export default function SideNav() {
   return (
-    <div className="sidebar">
+    <div className="sidenav">
       Ben Lin
       <SideNavLink linktext='bio'>Bio</SideNavLink>
       <SideNavLink linktext='education'>Education</SideNavLink>
