@@ -12,7 +12,7 @@ body {
 
 /* Content Styles */
 .content {
-  margin-left: 260px; /* Space for the fixed sidebar */
+  margin-left: 230px; /* Space for the fixed sidebar */
   padding: 20px;
   flex: 1;
   background-color: #f4f4f4;
