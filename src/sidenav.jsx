@@ -1,11 +1,9 @@
-import './sidenav.css'
+import './App.css';
 import SideNavLink from './sidenavlink';
-import sakuragi from '../assets/sakuragi.png';
 
 export default function SideNav() {
   return (
-    <div className="sidenav">
-      <div className='profile-picture' />
+    <div className="sidebar">
       Ben Lin
       <SideNavLink linktext='bio'>Bio</SideNavLink>
       <SideNavLink linktext='education'>Education</SideNavLink>
