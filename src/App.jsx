@@ -9,7 +9,7 @@ function App() {
         <SideNav/>
         <div class='content'>
           <section id='bio'>
-            <h2>BIO</h2>
+            <h2>Bio</h2>
             <p>
               I am a Bachelor's of Computer Science Graduate from the University of Waterloo, minoring in Combinatorics and Optimization.
               My interests include Computer Vision, Machine Learning, Artificial Intelligence, Graphics, and Game Theory.
@@ -40,6 +40,21 @@ function App() {
               <li>Optimization</li>
               <li>Network Flow Theory</li>
             </ul>
+          </section>
+          <section id='work-experience'>
+            <h2>Work Experience</h2>
+            <p>Backend Engineer @ Shakudo, May 2023 - August 2023, Toronto, ON</p>
+            <p>Fullstack Engineer @ Royal Canadian Air Force, September 2022 - December 2022, Kitchener, ON</p>
+            <p>Software Engineer Intern, Performance @ Nuro, January 2022 - April 2022, Mountain View, CA</p>
+            <p>Compiler Software Engineer Intern @ Huawei, May 2021 - August 2021, Markham, ON</p>
+          </section>
+          <section id='projects'>
+            <h2>Projects</h2>
+            <p>Will be updated with project samples later, but for now check out my <a href='https://github.com/benlin1221'>github</a></p>
+          </section>
+          <section id='misc'>
+            <h2>Misc</h2>
+            <p>Section dedicated to my hobbies and interests! Will post some dance content later.</p>
           </section>
         </div>
       </div>
