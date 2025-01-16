@@ -16,3 +16,9 @@
     height: 250px;
     border-radius: 50%;
 }
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

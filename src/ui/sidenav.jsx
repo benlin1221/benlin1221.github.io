@@ -1,6 +1,7 @@
 import './sidenav.css';
 import SideNavLink from './sidenavlink';
-import github from '../assets/github-logo-black.png';
+import github_white from '../assets/github_white.svg'
+import github_black from '../assets/github_black.svg';
 import linkedin from '../assets/linkedin-logo-black.png';
 
 export default function SideNav() {
@@ -12,8 +13,15 @@ export default function SideNav() {
       <SideNavLink linktext='work-experience'>Work Experience</SideNavLink>
       <SideNavLink linktext='projects'>Projects</SideNavLink>
       <SideNavLink linktext='misc'>Misc</SideNavLink>
-      <a href='https://github.com/benlin1221'><img src={github} width="50"/></a>
-      <a href='https://www.linkedin.com/in/benlin1221/'><img src={linkedin} width="50"/></a>
+      <div className='logo-container'>
+        <a href='https://github.com/benlin1221'>
+          <picture>
+            <source srcSet={github_white} media="(prefers-color-scheme: dark)" width="50"/>
+            <img src={github_black} width="50"/>
+          </picture>
+        </a>
+        <a href='https://www.linkedin.com/in/benlin1221/'><img src={linkedin} width="50"/></a>
+      </div>
     </div>
   );
 }
