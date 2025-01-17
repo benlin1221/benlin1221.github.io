@@ -13,6 +13,7 @@ export default function SideNav() {
       <img src={profile_picture} className='profile-picture'/>
       <h2>Ben Lin</h2>
       <p className='contact-text'>lin.ben0188@gmail.com</p>
+      <a href='resume.pdf'>Resume</a>
       <SideNavLink linktext='bio'>Bio</SideNavLink>
       <SideNavLink linktext='education'>Education</SideNavLink>
       <SideNavLink linktext='work-experience'>Work Experience</SideNavLink>

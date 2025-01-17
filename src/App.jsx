@@ -14,7 +14,9 @@ function App() {
               I am a Bachelor's of Computer Science Graduate from the University of Waterloo, minoring in Combinatorics and Optimization.
               My interests include Computer Vision, Machine Learning, Artificial Intelligence, Graphics, and Game Theory.
               I have interned previously at Huawei, Nuro, the Royal Canadian Air Force, and Shakudo.
-              Apart from schooling and my professional career, I am a dancer, previously a part of <a href='https://www.instagram.com/uw.origins/'>UW Origins</a> and president of <a href='https://www.instagram.com/uwhiphop/'>UW Hip Hop</a>.
+              Apart from schooling and my professional career, I am a dancer, currently a part of <a href='https://www.instagram.com/syncflow.co/'>FLOW</a>, a pre-competitive dance team based in Toronto.
+              I was previously a part of <a href='https://www.instagram.com/uw.origins/'>UW Origins</a>, competed at REACH dance competition, president of <a href='https://www.instagram.com/uwhiphop/'>UW Hip Hop</a>,
+              and performed at FEVER AFTER DARK in November 2024.
             </p>
           </section>
           <section id='education'>
