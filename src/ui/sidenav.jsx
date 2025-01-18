@@ -1,4 +1,5 @@
 import './sidenav.css';
+import '../App.css';
 import SideNavLink from './sidenavlink';
 import github_white from '../assets/github_white.svg';
 import github_black from '../assets/github_black.svg';
@@ -19,7 +20,7 @@ export default function SideNav() {
       <SideNavLink linktext='work-experience'>Work Experience</SideNavLink>
       <SideNavLink linktext='projects'>Projects</SideNavLink>
       <SideNavLink linktext='misc'>Misc</SideNavLink>
-      <div className='logo-container'>
+      <div className='horizontal-flex'>
         <DynamicIcon link='https://github.com/benlin1221' dark={github_white} light={github_black} size='50'/>
         <DynamicIcon link='https://www.linkedin.com/in/benlin1221/' dark={linkedin_white} light={linkedin_black} size='50'/>
       </div>

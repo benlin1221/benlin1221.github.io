@@ -18,12 +18,6 @@
     border-radius: 50%;
 }
 
-.logo-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .contact-text {
     font-size: 12px;
 }

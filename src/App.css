@@ -30,3 +30,10 @@ body {
 ul, ol {
   list-style-position: inside;
 }
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}

@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import './App.css'
-import SideNav from './ui/sidenav'
-
+import { useState } from 'react';
+import './App.css';
+import SideNav from './ui/sidenav';
+import cat from './assets/cat.png';
 function App() {
   return (
     <>
@@ -52,6 +52,18 @@ function App() {
           </section>
           <section id='projects'>
             <h2>Projects</h2>
+            <div className='horizontal-flex'>
+              <div>
+                <h3><a href='https://github.com/benlin1221/CAMs-and-Emergency-Vehicles'>CAM and Object Detection</a></h3>
+                <p>
+                  Our final project for CS484, computer vision! We used the approach described in the paper <a href='https://arxiv.org/abs/1512.04150'><i>Learning Deep Features for Discriminative Localization</i></a>.
+                  Modern neural networks can achieve great results in image classification. But which parts of the image is the model actually looking at to make its decision?
+                  By examining the output of the last convolutional layer in the neural network, we can extract spatial information for each class of object, creating a "heatmap" showing where in the image
+                  the model thinks the object is.
+                </p>
+              </div>
+              <img src={cat} padding='5px'/>
+            </div>
             <p>Will be updated with project samples later, but for now check out my <a href='https://github.com/benlin1221'>github</a></p>
           </section>
           <section id='misc'>
