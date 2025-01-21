@@ -15,8 +15,8 @@ function App() {
               My interests include Computer Vision, Machine Learning, Artificial Intelligence, Graphics, and Game Theory.
               I have interned previously at Huawei, Nuro, the Royal Canadian Air Force, and Shakudo.
               Apart from schooling and my professional career, I am a dancer, currently a part of <a href='https://www.instagram.com/syncflow.co/'>FLOW</a>, a pre-competitive dance team based in Toronto.
-              I was previously a part of <a href='https://www.instagram.com/uw.origins/'>UW Origins</a>, competed at REACH dance competition, president of <a href='https://www.instagram.com/uwhiphop/'>UW Hip Hop</a>,
-              and performed at FEVER AFTER DARK in November 2024.
+              I was previously a part of <a href='https://www.instagram.com/uw.origins/'>UW Origins</a>, a competitive dance team based out of the University of Waterloo, 
+              and president of <a href='https://www.instagram.com/uwhiphop/'>UW Hip Hop</a>, a social dance club focused on Hip-Hop dance, and one of the largest clubs on campus by membership.
             </p>
           </section>
           <section id='education'>
@@ -64,7 +64,13 @@ function App() {
               </div>
               <img src={cat} padding='5px'/>
             </div>
-            <p>Will be updated with project samples later, but for now check out my <a href='https://github.com/benlin1221'>github</a></p>
+            <h3><a href='https://github.com/benlin1221/CS480-final/tree/main'>E-commerce Object Classification</a></h3>
+            <p>
+              My final project for CS480, Machine Learning. 
+              In this project, I entered a kaggle competition for categorizing e-commerce objects given categorical features, a noisy image and noisy text description.
+              To achieve this, I used a simple neural network for the categorical features, a recurrent neural network to parse the text information, and a convolutional neural network to process the images.
+              Finally, to combine the results from the 3 different networks, another simple neural network was trained to combine the predictions.
+            </p>
           </section>
           <section id='misc'>
             <h2>Misc</h2>
